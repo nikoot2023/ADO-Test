@@ -34,14 +34,13 @@ steps:
     configuration: '$(buildConfiguration)'
 - task: FortifyOnDemandStatic@8
   inputs:
-    FortifyProjects: 'nikoot2023/ADO-Test'
-    FodConnection: '$(Pipeline.Workspace)/s'
+    FortifyProjects: '$(Pipeline.Workspace)/s'
+    FodConnection: 'ADO Test'
     ReleaseOptions: '0'
-    ReleaseId: 1023529
+    ReleaseId: 1021305
     EntitlementSelection: '1'
     EntitlementPreference: '2'
     OverrideScanSettings: '2'
     InProgressScanActionType: '2'
     RemediationScanPreference: '0'
     BuildType: 'none'
-    PolicyFailAction: '1'
