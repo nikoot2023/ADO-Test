@@ -37,9 +37,9 @@ steps:
     FortifyProjects: '$(Pipeline.Workspace)/s'
     FodConnection: 'ADO Test'
     ReleaseOptions: '0'
-    ReleaseId: 1021305
+    ReleaseId: 1383371
     EntitlementSelection: '1'
-    EntitlementPreference: '2'
+    EntitlementPreference: '0'
     OverrideScanSettings: '2'
     InProgressScanActionType: '2'
     RemediationScanPreference: '0'
