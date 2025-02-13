@@ -44,3 +44,4 @@ steps:
     InProgressScanActionType: '2'
     RemediationScanPreference: '0'
     BuildType: 'none'
+    PolicyFailAction: '0'
