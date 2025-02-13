@@ -35,7 +35,7 @@ steps:
 - task: FortifyOnDemandStatic@9
   inputs:
     FortifyProjects: '$(Pipeline.Workspace)/s'
-    FodConnection: 'ADO Test'
+    FodConnection: 'FoDTest'
     ReleaseOptions: '0'
     ReleaseId: 1383371
     EntitlementSelection: '1'
